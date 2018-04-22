@@ -5,11 +5,11 @@ var url = config.loginUrl;
 var loginOption = {};
 loginOption[config.idFormName] = config.id;
 loginOption[config.passwordFormName] = config.password;
-
+var today = new Date;
 casper.start();
 
 casper.open(url);
-this.echo('Today: ' + Date());
+this.echo('Today: ' + today);
 
 casper.then(function () {
 	this.echo('One Page: ' + this.getTitle());
