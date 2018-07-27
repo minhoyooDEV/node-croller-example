@@ -9,7 +9,7 @@ var today = new Date;
 casper.start();
 
 casper.open(url);
-this.echo('Today: ' + today);
+// this.echo('Today: ' + today);
 
 casper.then(function () {
 	this.echo('One Page: ' + this.getTitle());

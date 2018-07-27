@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "casper": "^0.1.1",
+    "casper": "^0.1.1"
   }
 }
